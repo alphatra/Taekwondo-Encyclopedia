@@ -1,0 +1,565 @@
+{
+  "documents": [
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/001",
+      "fields": {
+        "Tittle": {
+          "stringValue": "Chon - Ji"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "천 지"
+        },
+        "Moves": {
+          "integerValue": "19"
+        },
+        "searchKey": {
+          "stringValue": "C"
+        },
+        "Graphic": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/aplikacja-fab82.appspot.com/o/CHONJI.png?alt=media&token=fa74e1d2-f558-4bd7-b5fb-a57f05f783e6"
+        },
+        "Content": {
+          "stringValue": "Chon - Ji is the first pattern and it means \"heaven - earth\" which is interpreted as the creation of the world."
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.743213Z",
+      "updateTime": "2019-04-28T14:28:21.743213Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/002",
+      "fields": {
+        "Content": {
+          "stringValue": "Dan - Gun is the second pattern. It originates the legendary founder of Korea, Dangun Wanggeom."
+        },
+        "Tittle": {
+          "stringValue": "Dan - Gun"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "단 군"
+        },
+        "Moves": {
+          "integerValue": "21"
+        },
+        "searchKey": {
+          "stringValue": "D"
+        },
+        "Graphic": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/aplikacja-fab82.appspot.com/o/DANGUN.png?alt=media&token=f2a8e6ad-72c8-4f34-a940-a0f073549dd2"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.723596Z",
+      "updateTime": "2019-04-28T14:28:21.723596Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/003",
+      "fields": {
+        "Graphic": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/aplikacja-fab82.appspot.com/o/DOSAN.png?alt=media&token=73d4279c-fc1f-4d57-9e2c-f619a9f8cc03"
+        },
+        "Content": {
+          "stringValue": "Do - San is the third pattern. The name is a pseudonym of Korean patriot Ahn Chang Ho who sacrificed the whole life for share education and fight for Korean independence."
+        },
+        "Tittle": {
+          "stringValue": "Do - San"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "도 선"
+        },
+        "Moves": {
+          "integerValue": "24"
+        },
+        "searchKey": {
+          "stringValue": "D"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.715599Z",
+      "updateTime": "2019-04-28T14:28:21.715599Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/004",
+      "fields": {
+        "Content": {
+          "stringValue": "Won - Hyo is the fourth pattern. It comes from the name Korean monk living in Silla dynasty. He prompted to establishment Buddhism as main religion."
+        },
+        "Tittle": {
+          "stringValue": "Won - Hyo"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "Moves": {
+          "integerValue": "28"
+        },
+        "TittleKR": {
+          "stringValue": "원 효"
+        },
+        "searchKey": {
+          "stringValue": "W"
+        },
+        "Graphic": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/aplikacja-fab82.appspot.com/o/WONHYO.png?alt=media&token=3b5c9352-60ef-4025-a5c1-4780c16f50de"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.722980Z",
+      "updateTime": "2019-04-28T14:28:21.722980Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/005",
+      "fields": {
+        "TittleKR": {
+          "stringValue": "열 극"
+        },
+        "Moves": {
+          "integerValue": "38"
+        },
+        "searchKey": {
+          "stringValue": "Y"
+        },
+        "Graphic": {
+          "stringValue": "https://firebasestorage.googleapis.com/v0/b/aplikacja-fab82.appspot.com/o/YULGOK.png?alt=media&token=9f92e0ce-253a-47c0-908b-5ad7c503634a"
+        },
+        "Content": {
+          "stringValue": "Yul - Gok is the fifth pattern. It's a pseudonym of leading philosopher Yi L calls \"The Confucius of Korea \". Count of moves symbolising the place of birth on 38 degrees geographic."
+        },
+        "Tittle": {
+          "stringValue": "Yul - Gok"
+        },
+        "Video": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.723316Z",
+      "updateTime": "2019-04-28T14:28:21.723316Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/006",
+      "fields": {
+        "TittleKR": {
+          "stringValue": "총 군"
+        },
+        "Moves": {
+          "integerValue": "32"
+        },
+        "searchKey": {
+          "stringValue": "J"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": "Joon - Gun is the sixth pattern. The name comes from Ahn Joong Gun, Korean patriot who bring assassination off for Japan gubernator Hiro Bumi Ito responsible for incorporate Korea to Japan in 1910. The 32 moves symbolising age of patriot on momment of assassination."
+        },
+        "Tittle": {
+          "stringValue": "Joong - Gun"
+        },
+        "Video": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.743375Z",
+      "updateTime": "2019-04-28T14:28:21.743375Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/007",
+      "fields": {
+        "Moves": {
+          "integerValue": "37"
+        },
+        "TittleKR": {
+          "stringValue": "대 계"
+        },
+        "searchKey": {
+          "stringValue": "T"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": "Toi - Gye is the seventh pattern. It originates from great literary philosopher Yi Hwang. Amount of moves suit 37 degrees geographic width, where he was born."
+        },
+        "Tittle": {
+          "stringValue": "Toi - Gye"
+        },
+        "Video": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.720434Z",
+      "updateTime": "2019-04-28T14:28:21.720434Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/008",
+      "fields": {
+        "Tittle": {
+          "stringValue": "Hwa - Rang"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "화 랑"
+        },
+        "Moves": {
+          "integerValue": "29"
+        },
+        "searchKey": {
+          "stringValue": "H"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": "Hwa - Rang is the eighth pattern. The name means historical army formation focusing at ranks \"The flower of youth\", come into being on in Silla dynasty in VII age. Count of moves allude to 29 ellitary infantry division, which built fighting technics."
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.723223Z",
+      "updateTime": "2019-04-28T14:28:21.723223Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/009",
+      "fields": {
+        "Moves": {
+          "integerValue": "30"
+        },
+        "TittleKR": {
+          "stringValue": "총 무"
+        },
+        "searchKey": {
+          "stringValue": "C"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": "Choong - Moo is the ninth pattern. The name was a pseudonym confer to Admiral Yi Soon-Sin. Many count him as inventor the prototype of submarine."
+        },
+        "Tittle": {
+          "stringValue": "Choong - Moo"
+        },
+        "Video": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.748733Z",
+      "updateTime": "2019-04-28T14:28:21.748733Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/010",
+      "fields": {
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "광 계"
+        },
+        "Moves": {
+          "integerValue": "39"
+        },
+        "searchKey": {
+          "stringValue": "K"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": "Kwang - Gae is the  teenth pattern. It's named after Kwang-Gae-Toh-Wang, the 19th Kingof the Koguryo Dynasty. The 39 movements refer to the first two digits of 391 C.E., the year Kwang came to the throne at age 17."
+        },
+        "Tittle": {
+          "stringValue": "Kwang -Gae"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.722326Z",
+      "updateTime": "2019-04-28T14:28:21.722326Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/011",
+      "fields": {
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Po - Eun"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "포 은"
+        },
+        "Moves": {
+          "integerValue": "36"
+        },
+        "searchKey": {
+          "stringValue": "P"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.731420Z",
+      "updateTime": "2019-04-28T14:28:21.731420Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/012",
+      "fields": {
+        "Tittle": {
+          "stringValue": "Gae - Baek"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "Moves": {
+          "integerValue": "44"
+        },
+        "TittleKR": {
+          "stringValue": "개 백"
+        },
+        "searchKey": {
+          "stringValue": "G"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.753294Z",
+      "updateTime": "2019-04-28T14:28:21.753294Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/013",
+      "fields": {
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Eui - Am"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "의 암"
+        },
+        "Moves": {
+          "integerValue": "45"
+        },
+        "searchKey": {
+          "stringValue": "E"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.707690Z",
+      "updateTime": "2019-04-28T14:28:21.707690Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/014",
+      "fields": {
+        "Tittle": {
+          "stringValue": "Choong - Jang"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "충 양"
+        },
+        "Moves": {
+          "integerValue": "52"
+        },
+        "searchKey": {
+          "stringValue": "C"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.723452Z",
+      "updateTime": "2019-04-28T14:28:21.723452Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/015",
+      "fields": {
+        "TittleKR": {
+          "stringValue": "주 체"
+        },
+        "Moves": {
+          "integerValue": "45"
+        },
+        "searchKey": {
+          "stringValue": "J"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Juche"
+        },
+        "Video": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.738501Z",
+      "updateTime": "2019-04-28T14:28:21.738501Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/016",
+      "fields": {
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Sam - Il"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "삼 일"
+        },
+        "Moves": {
+          "integerValue": "33"
+        },
+        "searchKey": {
+          "stringValue": "S"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.711820Z",
+      "updateTime": "2019-04-28T14:28:21.711820Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/017",
+      "fields": {
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Yoo - Sin"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "여 신"
+        },
+        "Moves": {
+          "integerValue": "68"
+        },
+        "searchKey": {
+          "stringValue": "Y"
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.746167Z",
+      "updateTime": "2019-04-28T14:28:21.746167Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/018",
+      "fields": {
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Choi - Yong"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "최 용"
+        },
+        "Moves": {
+          "integerValue": "46"
+        },
+        "searchKey": {
+          "stringValue": "C"
+        },
+        "Graphic": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.700377Z",
+      "updateTime": "2019-04-28T14:28:21.700377Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/019",
+      "fields": {
+        "Content": {
+          "stringValue": ""
+        },
+        "Tittle": {
+          "stringValue": "Yong -Gae"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "TittleKR": {
+          "stringValue": "용 계"
+        },
+        "Moves": {
+          "integerValue": "49"
+        },
+        "searchKey": {
+          "stringValue": "Y"
+        },
+        "Graphic": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.709839Z",
+      "updateTime": "2019-04-28T14:28:21.709839Z"
+    },
+    {
+      "name": "projects/aplikacja-fab82/databases/(default)/documents/Patterns/020",
+      "fields": {
+        "Tittle": {
+          "stringValue": "Ul - Ji"
+        },
+        "Video": {
+          "stringValue": ""
+        },
+        "Moves": {
+          "integerValue": "42"
+        },
+        "TittleKR": {
+          "stringValue": "을 지"
+        },
+        "searchKey": {
+          "stringValue": "U"
+        },
+        "Graphic": {
+          "stringValue": ""
+        },
+        "Content": {
+          "stringValue": ""
+        }
+      },
+      "createTime": "2019-04-28T14:28:21.700489Z",
+      "updateTime": "2019-04-28T14:28:21.700489Z"
+    }
+  ],
+  "nextPageToken": "AJebfAeqMhp8Mm8AxOFwKejGCYGywMD3XBYkz8LW2jUe9kIU9tS0LYQI5CnFr9d9DsYf2nUlmbw1-kwd_0VN-eIne7BsTGlzoqpFKgy-IDOAhw"
+}

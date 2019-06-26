@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "995360120275",
+    "firebase_url": "https://aplikacja-fab82.firebaseio.com",
+    "project_id": "aplikacja-fab82",
+    "storage_bucket": "aplikacja-fab82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995360120275:android:1e2b5c349ddaff9b",
+        "android_client_info": {
+          "package_name": "com.example.taekwondoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEyaULAbk9bJa9zkgRatMwA1log8E2WW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995360120275-ht95jrhd3s4gtp6c8lfl44c630le05b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

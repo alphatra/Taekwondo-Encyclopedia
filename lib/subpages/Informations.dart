@@ -25,7 +25,7 @@ class History extends StatelessWidget {
       textfirst = TextStyle(fontWeight: FontWeight.w500, fontSize: 15, color: Colors.white);
       textsecond = TextStyle(fontWeight: FontWeight.w300, fontSize: 2, color: Colors.white);
       textseconds = TextStyle(fontWeight: FontWeight.bold, fontSize: 4, color: Colors.white);
-      padl = 40;
+      padl = 42;
       height = 130;
       flexs = 1;
       flex = 2;

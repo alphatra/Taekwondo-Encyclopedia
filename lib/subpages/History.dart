@@ -2,11 +2,28 @@ import 'package:flutter/material.dart';
 import '../Navbar.dart';
 
 class History extends StatelessWidget {
-  final textfirst = TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white);
-  final textsecond = TextStyle(fontWeight: FontWeight.normal, fontSize: 15, color: Colors.white);
-  final textseconds = TextStyle(fontWeight: FontWeight.bold, fontSize: 12, color: Colors.white);
+  var textfirst;
+  var textsecond;
+  var textseconds;
   @override
   Widget build(BuildContext context) {
+    if(MediaQuery.of(context).size.shortestSide < 300){
+      textfirst = TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white);
+      textsecond = TextStyle(fontWeight: FontWeight.normal, fontSize: 11, color: Colors.white);
+      textseconds = TextStyle(fontWeight: FontWeight.bold, fontSize: 12, color: Colors.white);
+    } if(MediaQuery.of(context).size.shortestSide < 400){
+      textfirst = TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white);
+      textsecond = TextStyle(fontWeight: FontWeight.normal, fontSize: 13, color: Colors.white);
+      textseconds = TextStyle(fontWeight: FontWeight.bold, fontSize: 12, color: Colors.white);
+    } if(MediaQuery.of(context).size.shortestSide < 600){
+        textfirst = TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white);
+        textsecond = TextStyle(fontWeight: FontWeight.normal, fontSize: 16, color: Colors.white);
+        textseconds = TextStyle(fontWeight: FontWeight.bold, fontSize: 12, color: Colors.white);
+    } else{
+      textfirst = TextStyle(fontWeight: FontWeight.bold, fontSize: 30, color: Colors.white);
+      textsecond = TextStyle(fontWeight: FontWeight.normal, fontSize: 25, color: Colors.white);
+      textseconds = TextStyle(fontWeight: FontWeight.bold, fontSize: 12, color: Colors.white);
+    }
     // TODO: implement build
     return Scaffold(
       body: Container(
@@ -22,7 +39,7 @@ class History extends StatelessWidget {
               children: <Widget>[
                 ListView(
                   shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
+                physics: const AlwaysScrollableScrollPhysics(),
                 padding: const EdgeInsets.all(20.0),
                   children: <Widget>[
                     Text('TAEKWON-DO',style: textfirst,textAlign: TextAlign.left,),

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:taekwondo_app/subpages/Patterns.dart';
 import 'package:taekwondo_app/subpages/Dictionary.dart';
 import 'package:taekwondo_app/subpages/About.dart';
-import 'package:taekwondo_app/subpages/History.dart';
+import 'package:taekwondo_app/subpages/Informations.dart';
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 void main() => runApp(MyPage());
 
@@ -22,6 +22,7 @@ class _MyPageState extends State<MyPage> {
       body: Container(
         child: Center(
           child: _getPage(currentPage),
+
         ),
       ),
       bottomNavigationBar: FancyBottomNavigation(
@@ -31,8 +32,8 @@ class _MyPageState extends State<MyPage> {
               title: "Dictionary",
           ),
           TabData(iconData: IconData(0xe901, fontFamily: 'Taekwondo-Kick'), title: "Patterns",),
-          TabData(iconData: Icons.history, title: "History",),
-          TabData(iconData: Icons.settings, title: "Settings",)
+          TabData(iconData: Icons.history, title: "Informations",),
+          TabData(iconData: Icons.settings, title: "About us",)
         ],
         activeIconColor: Colors.white,
         inactiveIconColor: Colors.limeAccent[700],

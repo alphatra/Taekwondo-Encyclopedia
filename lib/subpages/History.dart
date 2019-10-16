@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../Navbar.dart';
-
 class History extends StatelessWidget {
   var textfirst;
   var textsecond;

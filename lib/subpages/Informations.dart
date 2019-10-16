@@ -15,7 +15,11 @@ class History extends StatelessWidget {
     int flexs;
     double widthp = MediaQuery.of(context).size.width;
     double heightp = MediaQuery.of(context).size.height;
-    debugPrint('szerokość urządzenia to $widthp' + 'wysokość urządzenia to $heightp' );
+    DateTime now = DateTime.now();
+    var fiveMFromNow = now.add(new Duration(minutes: 5));
+    var fiveSFromNow = now.add(new Duration(seconds: 5));
+    debugPrint('szerokość urządzenia to $widthp'+'wysokość urządzenia to $heightp' );
+    debugPrint(now.toString()+'  '+fiveMFromNow.toString());
     if(heightp < 600){
       gradient = Container(height: 1,width: double.infinity,decoration: BoxDecoration(gradient: RadialGradient(radius: 200,colors: [
         // Colors are easy thanks to Flutter's Colors class.
@@ -100,7 +104,6 @@ class History extends StatelessWidget {
       flexs = 1;
       debugPrint('jestem > 1300(wysokości i szerokości)');
     }
-
     // TODO: implement build
     return Scaffold(
         body: Container(
@@ -124,7 +127,7 @@ class History extends StatelessWidget {
                         Expanded(flex:40,child: Container(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Text('Gen. Choi Hong-Hi',style: textfirst,),
+                            Text('Gen. Choi Hong-Hi',style: textfirst),
                             Text('The histor of Taekwon - do creator',style: textsecond,),
                             Padding(padding:EdgeInsets.only(top: 20),child: Text('Twórcą Taekwon-do był Generał południowokoreańskiej armii,Choi Hong Hi urodzony 9 listopada 1918 roku w Ha Dae w Korei.',style: textseconds,textAlign: TextAlign.left,)
                             ),],),),),

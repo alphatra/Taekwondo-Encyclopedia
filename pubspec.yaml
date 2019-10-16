@@ -32,6 +32,10 @@ dependencies:
   http: ^0.12.0+2
   firebase_admob: ^0.8.0
   audioplayers: ^0.13.1
+  youtube_player: ^3.5.0
+  appcenter:
+  appcenter_analytics:
+  appcenter_crashes:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

@@ -4,6 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:async';
 import 'package:taekwondo_app/Navbar.dart';
 import 'package:firebase_admob/firebase_admob.dart';
+import 'package:youtube_player/youtube_player.dart';
+import 'package:flutter/services.dart';
 class Patterns extends StatefulWidget {
   @override
   _PatternsState createState() => _PatternsState();
@@ -63,6 +65,7 @@ class _PatternsState extends State<Patterns> {
           anchorType: AnchorType.bottom,
           anchorOffset: 0.0,
         );
+      SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     });
 
     return Scaffold(
@@ -295,10 +298,10 @@ class _DetailPageState extends State<DetailPage> {
     color: Colors.white,
   );
   final textsecond = TextStyle(
-      fontWeight: FontWeight.normal, fontSize: 18, color: Colors.white);
+      fontWeight: FontWeight.normal, fontSize: 18, color: Colors.white,);
   final textseconds = TextStyle(
       fontFamily: "OpenSans-Regular", fontSize: 21, color: Colors.white);
-
+  var top = 0.0;
   @override
   Widget build(BuildContext context) {
     FirebaseAdMob.instance.initialize(appId: "ca-app-pub-8398911720290278~8680924007").then((response){
@@ -310,39 +313,71 @@ class _DetailPageState extends State<DetailPage> {
         );
     });
     return Scaffold(
-      body: Container(
-        color: Colors.black,
-        width: double.infinity,
-        height: double.infinity,
-        child: Column(
-          children: <Widget>[
-            Navbar(
-              magia: widget.post.data['Tittle'],
+      backgroundColor:  Colors.black,
+      resizeToAvoidBottomInset: false,
+      resizeToAvoidBottomPadding: false,
+      body: NestedScrollView(
+        headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
+          return <Widget>[
+            SliverAppBar(
+              backgroundColor: Colors.limeAccent[400],
+              expandedHeight: 200.0,
+              floating: false,
+              pinned: true,
+              flexibleSpace: LayoutBuilder(
+                  builder: (BuildContext context, BoxConstraints constraints) {
+                    print('constraints=' + constraints.toString());
+                    top = constraints.biggest.height;
+                    return FlexibleSpaceBar(
+                        centerTitle: true,
+                        title: AnimatedOpacity(
+                            duration: Duration(milliseconds: 300),
+                            opacity: top < 150.0 ? 1.0 : 0.0,
+                            child: Text(
+                              widget.post.data['Tittle'],
+                              style: textfirst
+                            )),
+                        background: Container(color: Colors.black,child: Column(mainAxisAlignment: MainAxisAlignment.center,children: <Widget>[
+                          Padding(
+                              padding: EdgeInsets.symmetric(vertical: 75)
+                          ),
+                          Text(
+                            widget.post.data['Tittle'] +
+                                ("  ") +
+                                widget.post.data['TittleKR'],
+                            style: textfirst,
+                          ),
+                          Text(
+                            ("Number of moves:  ") +
+                                widget.post.data["Moves"].toString() +
+                                ("\n"),
+                            style: textsecond,
+                          ),
+                        ],),));
+                  })
             ),
-            Text(
-              widget.post.data['Tittle'] +
-                  ("  ") +
-                  widget.post.data['TittleKR'],
-              style: textfirst,
-            ),
-            Text(
-              ("Number of moves:  ") +
-                  widget.post.data["Moves"].toString() +
-                  ("\n"),
-              style: textsecond,
-            ),
-            Image.network(
-              widget.post.data['Graphic'],
-              scale: 4,
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 25, vertical: 15),
-              child: Text(
-                widget.post.data["Content"],
-                style: textseconds,
+          ];
+        },
+        body: Center(
+          child: ListView(
+            children: <Widget>[
+              Image.network(
+                widget.post.data['Graphic'],
+                scale: 3,
               ),
-            )
-          ],
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 25, vertical: 15),
+                child: Text(
+                  widget.post.data["Content"],
+                  style: textseconds,
+                ),
+              ),
+              Padding(
+                  padding: EdgeInsets.symmetric(vertical: 15),
+                  child: YoutubePlayer(source: widget.post.data["Video"], context: context, quality: YoutubeQuality.FHD,)
+              )
+            ],
+          )
         ),
       ),
     );

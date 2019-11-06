@@ -65,7 +65,6 @@ class _PatternsState extends State<Patterns> {
           anchorType: AnchorType.bottom,
           anchorOffset: 0.0,
         );
-      SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     });
 
     return Scaffold(
@@ -374,8 +373,12 @@ class _DetailPageState extends State<DetailPage> {
               ),
               Padding(
                   padding: EdgeInsets.symmetric(vertical: 15),
-                  child: YoutubePlayer(source: widget.post.data["Video"], context: context, quality: YoutubeQuality.FHD,)
-              )
+                  child: YoutubePlayer(source: widget.post.data["Video"], context: context, quality: YoutubeQuality.FHD,callbackController: (controller) {
+                    ;
+                  },),
+
+
+              ),
             ],
           )
         ),

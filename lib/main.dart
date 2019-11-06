@@ -3,9 +3,11 @@ import 'Controlersite.dart';
 import 'package:appcenter/appcenter.dart';
 import 'package:appcenter_analytics/appcenter_analytics.dart';
 import 'package:appcenter_crashes/appcenter_crashes.dart';
-
+import 'package:device_simulator/device_simulator.dart';
+const bool debugEnableDeviceSimulator = true;
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
+
   @override
 
   Widget build(BuildContext context) {
@@ -18,7 +20,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           fontFamily: 'Roboto',
       ),
-      home: MyPage(),
-    );
+      home:  DeviceSimulator(
+      brightness: Brightness.dark,
+    enable: debugEnableDeviceSimulator,
+    child: Scaffold(
+    body: MyPage())));
   }
 }

@@ -36,6 +36,11 @@ dependencies:
   appcenter:
   appcenter_analytics:
   appcenter_crashes:
+  device_simulator: ^0.9.5
+  auto_size_text: ^2.1.0
+
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../Navbar.dart';
 import 'dart:async';
+import 'package:auto_size_text/auto_size_text.dart';
 class History extends StatelessWidget {
 
   @override
@@ -127,9 +128,21 @@ class History extends StatelessWidget {
                         Expanded(flex:40,child: Container(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Text('Gen. Choi Hong-Hi',style: textfirst),
-                            Text('The histor of Taekwon - do creator',style: textsecond,),
-                            Padding(padding:EdgeInsets.only(top: 20),child: Text('Twórcą Taekwon-do był Generał południowokoreańskiej armii,Choi Hong Hi urodzony 9 listopada 1918 roku w Ha Dae w Korei.',style: textseconds,textAlign: TextAlign.left,)
+                            AutoSizeText(
+                                'Gen. Choi Hong-Hi',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w500),
+                              minFontSize: 17,maxFontSize: 32,
+                            ),
+                            AutoSizeText(
+                                'The histor of Taekwon - do creator',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w300),
+                              minFontSize: 8,maxFontSize: 21,
+                            ),
+                            Padding(padding:EdgeInsets.only(top: 20),child: AutoSizeText(
+                              'Twórcą Taekwon-do był Generał południowokoreańskiej armii,Choi Hong Hi urodzony 9 listopada 1918 roku w Ha Dae w Korei.',
+                              maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.bold),textAlign: TextAlign.left,
+                              minFontSize: 8,maxFontSize: 23,
+                            ),
                             ),],),),),
                       ],),)),
                     gradient,
@@ -140,9 +153,22 @@ class History extends StatelessWidget {
                         Expanded(flex:40,child: Container(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Text('Taekown - do',style: textfirst,),
-                            Text('The history of Taekwon - do',style: textsecond,),
-                            Padding(padding:EdgeInsets.only(top: 20),child: Text('Narodowy sport i tradycyjna sztuka walki Korei, stworzona do celów militarnych, następnie zostało zaadaptowane do użytku cywilnego.',style: textseconds,textAlign: TextAlign.left,)
+                            AutoSizeText(
+                                'Taekown - do',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w500),
+                              minFontSize: 17,maxFontSize: 32,
+                            ),
+                            AutoSizeText(
+                                'The history of Taekwon - do',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w300),
+                              minFontSize: 8,maxFontSize: 21,
+                            ),
+
+                            Padding(padding:EdgeInsets.only(top: 20),child: AutoSizeText(
+                              'Narodowy sport i tradycyjna sztuka walki Korei, stworzona do celów militarnych, następnie zostało zaadaptowane do użytku cywilnego.',
+                              maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.bold),textAlign: TextAlign.left,
+                              minFontSize: 8,maxFontSize: 23,
+                            ),
                             ),],),),),
                       ],),)),
                     gradient,
@@ -153,9 +179,22 @@ class History extends StatelessWidget {
                         Expanded(flex:40,child: Container(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Text('Golden thoughts',style: textfirst,),
-                            Text('Thoughts of Gen. Choi',style: textsecond,),
-                            Padding(padding:EdgeInsets.only(top: 20),child: Text('Nigdy nie zapominajcie o codziennym treningu. Powtarzajcie techniki, dopóki nie osiągniecie doskonałości i całkowitej skuteczności.',style: textseconds,textAlign: TextAlign.left,)
+                            AutoSizeText(
+                              'Golden thoughts',
+                              maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w500),
+                              minFontSize: 17,maxFontSize: 32,
+                            ),
+                            AutoSizeText(
+                                'Thoughts of Gen. Choi',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w300),
+                              minFontSize: 8,maxFontSize: 21,
+                            ),
+
+                            Padding(padding:EdgeInsets.only(top: 20),child: AutoSizeText(
+                              'Nigdy nie zapominajcie o codziennym treningu. Powtarzajcie techniki, dopóki nie osiągniecie doskonałości i całkowitej skuteczności.',
+                              maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.bold),textAlign: TextAlign.left,
+                              minFontSize: 8,maxFontSize: 23,
+                            ),
                             ),],),),),
                       ],),)),
                     gradient,
@@ -166,9 +205,21 @@ class History extends StatelessWidget {
                         Expanded(flex:40,child: Container(child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
-                            Text('Self Defense',style: textfirst,),
-                            Text('Many examples of self defense',style: textsecond,),
-                            Padding(padding:EdgeInsets.only(top: 20),child: Text('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros ligula, scelerisque vitae velit eget, tempor sollicitudin lorem. Donec auctor leo magna.',style: textseconds,textAlign: TextAlign.left,)
+                            AutoSizeText(
+                                'Self Defense',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w500),
+                              minFontSize: 17,maxFontSize: 32,
+                            ),
+                            AutoSizeText(
+                                'Many examples of self defense',
+                                maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.w300),
+                              minFontSize: 8,maxFontSize: 21,
+                            ),
+                            Padding(padding:EdgeInsets.only(top: 20),child: AutoSizeText(
+                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eros ligula, scelerisque vitae velit eget, tempor sollicitudin lorem. Donec auctor leo magna.',
+                              maxLines: 1, style: TextStyle(fontSize: 50,color: Colors.white,fontWeight: FontWeight.bold),textAlign: TextAlign.left,
+                              minFontSize: 8,maxFontSize: 23,
+                            ),
                             ),],),),),
                       ],),)),
                     gradient,

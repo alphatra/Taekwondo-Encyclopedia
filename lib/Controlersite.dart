@@ -4,6 +4,7 @@ import 'package:taekwondo_app/subpages/Dictionary.dart';
 import 'package:taekwondo_app/subpages/About.dart';
 import 'package:taekwondo_app/subpages/Informations.dart';
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
+
 void main() => runApp(MyPage());
 
 class MyPage extends StatefulWidget {

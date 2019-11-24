@@ -47,59 +47,55 @@ class _NavbarState extends State<Navbar> {
   }
   @override
   Widget build(BuildContext context) {
-    return Padding(
-
-      padding: EdgeInsets.only(bottom: 40),
-      child: Container(
-          child: Column(children: <Widget>[
-            Row(
-              mainAxisAlignment: MainAxisAlignment.start,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: <Widget>[
-                Expanded(
-                  child: Container(
-                    child: Text(widget.magia,
-                        style: TextStyle(
-                            fontSize: 24,
-                            fontWeight: FontWeight.w700,
-                            color: Colors.white,
-                            fontFamily: 'Roboto'),
-                        textAlign: TextAlign.left),
-                    margin: EdgeInsets.only(top: 50, left: 30),
-                  ),
+    return Container(
+        child: Column(children: <Widget>[
+          Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Expanded(
+                child: Container(
+                  child: Text(widget.magia,
+                      style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w700,
+                          color: Colors.white,
+                          fontFamily: 'Roboto'),
+                      textAlign: TextAlign.left),
+                  margin: EdgeInsets.only(top: 10, left: 30),
                 ),
-                Expanded(
-                    child: Container(
-                      margin: EdgeInsets.only(top: 50, left: 36),
-                      height: 29,
-                      child: TextField(
-                        onChanged:(val) {
-                          initiateSearch(val);
-                        },
-                        cursorColor: Colors.white,
-                        decoration: InputDecoration(
-                            contentPadding: const EdgeInsets.symmetric(
-                                vertical: 3),
-                            fillColor: Colors.limeAccent[400],
-                            filled: true,
-                            prefixIcon: Icon(
-                              Icons.search,
-                              size: 24,
-                              color: Colors.white,
-                            ),
-                            hintText: "",
-                            border: OutlineInputBorder(
-                                borderRadius: BorderRadius.only(
-                                    topLeft: Radius.circular(8),
-                                    bottomLeft: Radius.circular(8))
-                            )
-                        ),
+              ),
+              Expanded(
+                  child: Container(
+                    margin: EdgeInsets.only(top: 10, left: 36),
+                    height: 29,
+                    child: TextField(
+                      onChanged:(val) {
+                        initiateSearch(val);
+                      },
+                      cursorColor: Colors.white,
+                      decoration: InputDecoration(
+                          contentPadding: const EdgeInsets.symmetric(
+                              vertical: 3),
+                          fillColor: Colors.limeAccent[400],
+                          filled: true,
+                          prefixIcon: Icon(
+                            Icons.search,
+                            size: 24,
+                            color: Colors.white,
+                          ),
+                          hintText: "",
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.only(
+                                  topLeft: Radius.circular(8),
+                                  bottomLeft: Radius.circular(8))
+                          )
                       ),
-                    ))
-              ],
-            ),
-          ],)
-      ),
+                    ),
+                  ))
+            ],
+          ),
+        ],)
     );
   }
 }

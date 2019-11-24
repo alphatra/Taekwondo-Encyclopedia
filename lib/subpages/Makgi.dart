@@ -15,7 +15,6 @@ class Makgi extends StatefulWidget {
 }
 
 class _MakgiState extends State<Makgi> {
-
   @override
   int currentPage = 0;
   GlobalKey bottomNavigationKey = GlobalKey();
@@ -170,12 +169,12 @@ class _elementState extends State<element> {
                           color: Colors.white,
                           fontFamily: 'Roboto'),
                       textAlign: TextAlign.left),
-                  margin: EdgeInsets.only(top: 50, left: 30),
+                  margin: EdgeInsets.only(top: 10, left: 30),
                 ),
               ),
               Expanded(
                   child: Container(
-                    margin: EdgeInsets.only(top: 50, left: 30),
+                    margin: EdgeInsets.only(top: 10, left: 30),
                     height: 29,
                     child: TextField(
                       onChanged: (val) {
@@ -452,7 +451,7 @@ InterstitialAd myInterstitial = InterstitialAd(
   // Replace the testAdUnitId with an ad unit id from the AdMob dash.
   // https://developers.google.com/admob/android/test-ads
   // https://developers.google.com/admob/ios/test-ads
-  adUnitId: "ca-app-pub-8398911720290278/6622571020",
+  adUnitId: "ca-app-pub-8398911720290278/2972310750",
   targetingInfo: targetingInfo,
   listener: (MobileAdEvent event) {
     print("InterstitialAd event is $event");

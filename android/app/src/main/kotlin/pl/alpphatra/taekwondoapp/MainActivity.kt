@@ -1,4 +1,4 @@
-package com.example.taekwondoapp
+package pl.alpphatra.taekwondoapp
 
 import android.os.Bundle
 

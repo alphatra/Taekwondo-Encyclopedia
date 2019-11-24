@@ -13,7 +13,42 @@
           "package_name": "com.example.taekwondoapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "995360120275-ht95jrhd3s4gtp6c8lfl44c630le05b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEyaULAbk9bJa9zkgRatMwA1log8E2WW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995360120275-ht95jrhd3s4gtp6c8lfl44c630le05b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8398911720290278~8680924007"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995360120275:android:0721971f554cfff0412326",
+        "android_client_info": {
+          "package_name": "pl.alpphatra.taekwondoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995360120275-ht95jrhd3s4gtp6c8lfl44c630le05b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCEyaULAbk9bJa9zkgRatMwA1log8E2WW0"

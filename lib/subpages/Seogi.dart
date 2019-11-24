@@ -152,12 +152,12 @@ class _elementState extends State<element> {
                           color: Colors.white,
                           fontFamily: 'Roboto'),
                       textAlign: TextAlign.left),
-                  margin: EdgeInsets.only(top: 50, left: 30),
+                  margin: EdgeInsets.only(top: 10, left: 30),
                 ),
               ),
               Expanded(
                   child: Container(
-                    margin: EdgeInsets.only(top: 50, left: 30),
+                    margin: EdgeInsets.only(top: 10, left: 30),
                     height: 29,
                     child: TextField(
                       onChanged: (val) {

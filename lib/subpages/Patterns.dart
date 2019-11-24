@@ -5,7 +5,6 @@ import 'dart:async';
 import 'package:taekwondo_app/Navbar.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 import 'package:youtube_player/youtube_player.dart';
-import 'package:flutter/services.dart';
 class Patterns extends StatefulWidget {
   @override
   _PatternsState createState() => _PatternsState();
@@ -90,12 +89,12 @@ class _PatternsState extends State<Patterns> {
                                 color: Colors.white,
                                 fontFamily: 'Roboto'),
                             textAlign: TextAlign.left),
-                        margin: EdgeInsets.only(top: 50, left: 30),
+                        margin: EdgeInsets.only(top: 10, left: 30),
                       ),
                     ),
                     Expanded(
                         child: Container(
-                          margin: EdgeInsets.only(top: 50, left: 30),
+                          margin: EdgeInsets.only(top: 10, left: 30),
                           height: 29,
                           child: TextField(
                             onChanged: (val) {
@@ -397,23 +396,14 @@ class SearchService {
 }
 
 MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
-  keywords: <String>['Taekwondo','sport','flutterio', 'beautiful apps', 'games', 'apple', 'samsung'],
+  keywords: <String>['flutterio', 'beautiful apps'],
   contentUrl: 'https://flutter.io',
-  childDirected: false, // or MobileAdGender.female, MobileAdGender.unknown
+  birthday: DateTime.now(),
+  childDirected: false,
+  designedForFamilies: false,
+  gender: MobileAdGender.male, // or MobileAdGender.female, MobileAdGender.unknown
   testDevices: <String>[], // Android emulators are considered test devices
 );
-BannerAd myBanner = BannerAd(
-  // Replace the testAdUnitId with an ad unit id from the AdMob dash.
-  // https://developers.google.com/admob/android/test-ads
-  // https://developers.google.com/admob/ios/test-ads
-  adUnitId: "ca-app-pub-8398911720290278/6614832164",
-  size: AdSize.smartBanner,
-  targetingInfo: targetingInfo,
-  listener: (MobileAdEvent event) {
-    print("BannerAd event is $event");
-  },
-);
-
 InterstitialAd myInterstitial = InterstitialAd(
   // Replace the testAdUnitId with an ad unit id from the AdMob dash.
   // https://developers.google.com/admob/android/test-ads
